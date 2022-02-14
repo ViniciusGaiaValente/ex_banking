@@ -3,7 +3,6 @@ defmodule ExBanking.MultiCurrencyBalanceWallet do
   This module implements the multi-currency approach to the "ExBanking.Wallet"
   behavior.
 
-
   In this approach, the user has an independent balance for every currency, and
   these different balances don`t communicate with each other
 

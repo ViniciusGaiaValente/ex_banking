@@ -1,4 +1,4 @@
-defmodule ExBanking.SigleBalanceWallet do
+defmodule ExBanking.SingleBalanceWallet do
   @moduledoc """
   This module implements the sigle-balance approach to the "ExBanking.Wallet"
   behavior.

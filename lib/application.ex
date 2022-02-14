@@ -11,7 +11,7 @@ defmodule ExBanking.Application do
     ]
 
     ExBanking.Repo.start_db()
-    ExBanking.SigleBalanceWallet.start_db()
+    ExBanking.SingleBalanceWallet.start_db()
 
     Supervisor.start_link(children, strategy: :one_for_one)
   end
